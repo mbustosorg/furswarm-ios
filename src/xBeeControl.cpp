@@ -66,12 +66,16 @@ void xBeeControl::setupRadio() {
     //  Radio setup
 #if (TARGET_IPHONE_SIMULATOR || !TARGET_OS_IPHONE)
     serial.listDevices();
-    portName = "/dev/tty.usbserial-AH001572";
-    serial.setup(portName, XBEE_BAUD_RATE); 
+//    portName = "/dev/tty.usbserial-AH001572";
+    portName = "/dev/tty.HHW-SPP-1800-2-DevB";
+    serial.setup(portName, XBEE_BAUD_RATE);
 #else
     portName = "/dev/tty.iap";
     serial.setup(portName, XBEE_BAUD_RATE);
 #endif
+    if (portName.find("SPP")!=std::string::npos) {
+        bluetoothConnection = true;
+    }
     xbeeRadio.setSerial(serial);
     /*
     xBeeCoordConfig XBconfiguration;
@@ -277,7 +281,10 @@ void xBeeControl::processIncoming() {
             } else {
                 processRXResponse();
             }
-        } else {
+        } else if (apiId == ZB_TX_REQUEST) {
+            // Probably dealing with Bluetooth transparent connection
+            processTransparentRequest();
+            } else {
             if (FS_DEBUG_ACTIVITY) {
                 cout << logTimestamp() << "Expected AT/ZB response but got " << (int) xbeeRadio.getResponse().getApiId() << endl;
             }
@@ -293,6 +300,18 @@ void xBeeControl::processIncoming() {
         unlock();
     }
 #endif
+}
+
+//! Process a probable transparent request from a serial connection (e.g. Bluetooth)
+void xBeeControl::processTransparentRequest() {
+    int TxRequestFrameHeaderLength = 13;
+    XBeeResponse response = xbeeRadio.getResponse();
+    int dataLength = response.getFrameDataLength() - TxRequestFrameHeaderLength;
+    uint8_t *payload = new uint8_t[dataLength];
+    memcpy(payload, response.getFrameData() + TxRequestFrameHeaderLength, response.getFrameDataLength());
+    receiveMessage *latestMessage = new receiveMessage(0, XBeeAddress64(0, 0), payload, dataLength, 0);
+    receiveQueue.push(*latestMessage);
+    delete[] payload;
 }
 
 //! Process an RXResponse from the XBee
@@ -317,7 +336,7 @@ void xBeeControl::processRXResponse() {
 bool xBeeControl::sendTxRequest(ZBTxRequest &request, bool expectResponse) {
     ++sentCount;
     xbeeRadio.send(request);
-    if (expectResponse) {
+    if (expectResponse && !bluetoothConnection) {
         if (xbeeRadio.readPacket(100)) {
             if (xbeeRadio.getResponse().getApiId() == ZB_TX_STATUS_RESPONSE) {
                 ZBTxStatusResponse txStatus = ZBTxStatusResponse();

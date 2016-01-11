@@ -875,7 +875,7 @@ public:
 	void setAddress16(uint16_t addr16);
 	void setBroadcastRadius(uint8_t broadcastRadius);
 	void setOption(uint8_t option);
-protected:
+public:
 	// declare virtual functions
 	uint8_t getFrameData(uint8_t pos);
 	uint8_t getFrameDataLength();

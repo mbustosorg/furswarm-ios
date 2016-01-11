@@ -76,6 +76,7 @@ public:
     void resetNetwork();
     string logTimestamp();
     string portName;
+    bool bluetoothConnection = false;
     void setInNodeDiscovery(bool newInNodeDiscovery);
     int broadcastQueueCount();
     int sentCount;
@@ -110,6 +111,7 @@ private:
     void broadcastPayload(uint8_t payload[], int payloadSize);
     bool sendTxRequest(ZBTxRequest &request, bool expectResponse);
     void processResponse();
+    void processTransparentRequest();
     void processATResponse();
     void processRXResponse();
 };

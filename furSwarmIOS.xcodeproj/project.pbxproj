@@ -9,38 +9,38 @@
 /* Begin PBXBuildFile section */
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
-		2269BBF01C41F3E800BB55F7 /* furSwarm.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBB41C41F3E800BB55F7 /* furSwarm.mm */; settings = {ASSET_TAGS = (); }; };
-		2269BBF21C41F3E800BB55F7 /* xBeeControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBB81C41F3E800BB55F7 /* xBeeControl.cpp */; settings = {ASSET_TAGS = (); }; };
-		2269BBF31C41F3E800BB55F7 /* swarmMemberDisplay.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBB91C41F3E800BB55F7 /* swarmMemberDisplay.mm */; settings = {ASSET_TAGS = (); }; };
-		2269BBF41C41F3E800BB55F7 /* furSwarmCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBBA1C41F3E800BB55F7 /* furSwarmCommand.cpp */; settings = {ASSET_TAGS = (); }; };
-		2269BBF51C41F3E800BB55F7 /* ofToggleButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBBD1C41F3E800BB55F7 /* ofToggleButton.cpp */; settings = {ASSET_TAGS = (); }; };
-		2269BBF61C41F3E800BB55F7 /* ofTriangleButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBC01C41F3E800BB55F7 /* ofTriangleButton.cpp */; settings = {ASSET_TAGS = (); }; };
-		2269BBF71C41F3E800BB55F7 /* furSwarmMessage.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBC31C41F3E800BB55F7 /* furSwarmMessage.mm */; settings = {ASSET_TAGS = (); }; };
-		2269BBF81C41F3E800BB55F7 /* swarmMember.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBC41C41F3E800BB55F7 /* swarmMember.mm */; settings = {ASSET_TAGS = (); }; };
-		2269BBF91C41F3E800BB55F7 /* animation1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBC51C41F3E800BB55F7 /* animation1.cpp */; settings = {ASSET_TAGS = (); }; };
-		2269BBFA1C41F3E800BB55F7 /* animation2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBC71C41F3E800BB55F7 /* animation2.cpp */; settings = {ASSET_TAGS = (); }; };
-		2269BBFB1C41F3E800BB55F7 /* animation3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBC91C41F3E800BB55F7 /* animation3.cpp */; settings = {ASSET_TAGS = (); }; };
-		2269BBFC1C41F3E800BB55F7 /* animationCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBCB1C41F3E800BB55F7 /* animationCommand.cpp */; settings = {ASSET_TAGS = (); }; };
-		2269BBFD1C41F3E800BB55F7 /* animationStepSetting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBCD1C41F3E800BB55F7 /* animationStepSetting.cpp */; settings = {ASSET_TAGS = (); }; };
-		2269BBFE1C41F3E800BB55F7 /* atndResponse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBCF1C41F3E800BB55F7 /* atndResponse.cpp */; settings = {ASSET_TAGS = (); }; };
-		2269BBFF1C41F3E800BB55F7 /* broadcastMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBD11C41F3E800BB55F7 /* broadcastMessage.cpp */; settings = {ASSET_TAGS = (); }; };
-		2269BC001C41F3E800BB55F7 /* fsCharacterCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBD31C41F3E800BB55F7 /* fsCharacterCommand.cpp */; settings = {ASSET_TAGS = (); }; };
-		2269BC011C41F3E800BB55F7 /* fsNodeDiscover.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBD51C41F3E800BB55F7 /* fsNodeDiscover.cpp */; settings = {ASSET_TAGS = (); }; };
-		2269BC021C41F3E800BB55F7 /* fsPatternParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBD71C41F3E800BB55F7 /* fsPatternParameters.cpp */; settings = {ASSET_TAGS = (); }; };
-		2269BC031C41F3E800BB55F7 /* fsPayload.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBD91C41F3E800BB55F7 /* fsPayload.cpp */; settings = {ASSET_TAGS = (); }; };
-		2269BC041C41F3E800BB55F7 /* furSwarmiOSApp.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBDD1C41F3E800BB55F7 /* furSwarmiOSApp.mm */; settings = {ASSET_TAGS = (); }; };
-		2269BC051C41F3E800BB55F7 /* keyboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBDE1C41F3E800BB55F7 /* keyboard.cpp */; settings = {ASSET_TAGS = (); }; };
-		2269BC061C41F3E800BB55F7 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBE01C41F3E800BB55F7 /* main.mm */; settings = {ASSET_TAGS = (); }; };
-		2269BC071C41F3E800BB55F7 /* ofButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBE11C41F3E800BB55F7 /* ofButton.cpp */; settings = {ASSET_TAGS = (); }; };
-		2269BC081C41F3E800BB55F7 /* ofEllipseButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBE21C41F3E800BB55F7 /* ofEllipseButton.cpp */; settings = {ASSET_TAGS = (); }; };
-		2269BC091C41F3E800BB55F7 /* ofSerial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBE41C41F3E800BB55F7 /* ofSerial.cpp */; settings = {ASSET_TAGS = (); }; };
-		2269BC0A1C41F3E800BB55F7 /* ofSlider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBE61C41F3E800BB55F7 /* ofSlider.cpp */; settings = {ASSET_TAGS = (); }; };
-		2269BC0B1C41F3E800BB55F7 /* project_sync.sh in Resources */ = {isa = PBXBuildFile; fileRef = 2269BBE81C41F3E800BB55F7 /* project_sync.sh */; settings = {ASSET_TAGS = (); }; };
-		2269BC0C1C41F3E800BB55F7 /* publish_documentation.sh in Resources */ = {isa = PBXBuildFile; fileRef = 2269BBE91C41F3E800BB55F7 /* publish_documentation.sh */; settings = {ASSET_TAGS = (); }; };
-		2269BC0D1C41F3E800BB55F7 /* receiveMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBEA1C41F3E800BB55F7 /* receiveMessage.cpp */; settings = {ASSET_TAGS = (); }; };
-		2269BC0E1C41F3E800BB55F7 /* xBeeConfiguration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBEC1C41F3E800BB55F7 /* xBeeConfiguration.cpp */; settings = {ASSET_TAGS = (); }; };
-		2269BC0F1C41F3E800BB55F7 /* xBeeCoordConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBEE1C41F3E800BB55F7 /* xBeeCoordConfig.cpp */; settings = {ASSET_TAGS = (); }; };
-		2269BC131C41F4D000BB55F7 /* XBee.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2269BC111C41F4D000BB55F7 /* XBee.cpp */; settings = {ASSET_TAGS = (); }; };
+		2269BBF01C41F3E800BB55F7 /* furSwarm.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBB41C41F3E800BB55F7 /* furSwarm.mm */; };
+		2269BBF21C41F3E800BB55F7 /* xBeeControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBB81C41F3E800BB55F7 /* xBeeControl.cpp */; };
+		2269BBF31C41F3E800BB55F7 /* swarmMemberDisplay.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBB91C41F3E800BB55F7 /* swarmMemberDisplay.mm */; };
+		2269BBF41C41F3E800BB55F7 /* furSwarmCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBBA1C41F3E800BB55F7 /* furSwarmCommand.cpp */; };
+		2269BBF51C41F3E800BB55F7 /* ofToggleButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBBD1C41F3E800BB55F7 /* ofToggleButton.cpp */; };
+		2269BBF61C41F3E800BB55F7 /* ofTriangleButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBC01C41F3E800BB55F7 /* ofTriangleButton.cpp */; };
+		2269BBF71C41F3E800BB55F7 /* furSwarmMessage.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBC31C41F3E800BB55F7 /* furSwarmMessage.mm */; };
+		2269BBF81C41F3E800BB55F7 /* swarmMember.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBC41C41F3E800BB55F7 /* swarmMember.mm */; };
+		2269BBF91C41F3E800BB55F7 /* animation1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBC51C41F3E800BB55F7 /* animation1.cpp */; };
+		2269BBFA1C41F3E800BB55F7 /* animation2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBC71C41F3E800BB55F7 /* animation2.cpp */; };
+		2269BBFB1C41F3E800BB55F7 /* animation3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBC91C41F3E800BB55F7 /* animation3.cpp */; };
+		2269BBFC1C41F3E800BB55F7 /* animationCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBCB1C41F3E800BB55F7 /* animationCommand.cpp */; };
+		2269BBFD1C41F3E800BB55F7 /* animationStepSetting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBCD1C41F3E800BB55F7 /* animationStepSetting.cpp */; };
+		2269BBFE1C41F3E800BB55F7 /* atndResponse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBCF1C41F3E800BB55F7 /* atndResponse.cpp */; };
+		2269BBFF1C41F3E800BB55F7 /* broadcastMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBD11C41F3E800BB55F7 /* broadcastMessage.cpp */; };
+		2269BC001C41F3E800BB55F7 /* fsCharacterCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBD31C41F3E800BB55F7 /* fsCharacterCommand.cpp */; };
+		2269BC011C41F3E800BB55F7 /* fsNodeDiscover.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBD51C41F3E800BB55F7 /* fsNodeDiscover.cpp */; };
+		2269BC021C41F3E800BB55F7 /* fsPatternParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBD71C41F3E800BB55F7 /* fsPatternParameters.cpp */; };
+		2269BC031C41F3E800BB55F7 /* fsPayload.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBD91C41F3E800BB55F7 /* fsPayload.cpp */; };
+		2269BC041C41F3E800BB55F7 /* furSwarmiOSApp.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBDD1C41F3E800BB55F7 /* furSwarmiOSApp.mm */; };
+		2269BC051C41F3E800BB55F7 /* keyboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBDE1C41F3E800BB55F7 /* keyboard.cpp */; };
+		2269BC061C41F3E800BB55F7 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBE01C41F3E800BB55F7 /* main.mm */; };
+		2269BC071C41F3E800BB55F7 /* ofButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBE11C41F3E800BB55F7 /* ofButton.cpp */; };
+		2269BC081C41F3E800BB55F7 /* ofEllipseButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBE21C41F3E800BB55F7 /* ofEllipseButton.cpp */; };
+		2269BC091C41F3E800BB55F7 /* ofSerial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBE41C41F3E800BB55F7 /* ofSerial.cpp */; };
+		2269BC0A1C41F3E800BB55F7 /* ofSlider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBE61C41F3E800BB55F7 /* ofSlider.cpp */; };
+		2269BC0B1C41F3E800BB55F7 /* project_sync.sh in Resources */ = {isa = PBXBuildFile; fileRef = 2269BBE81C41F3E800BB55F7 /* project_sync.sh */; };
+		2269BC0C1C41F3E800BB55F7 /* publish_documentation.sh in Resources */ = {isa = PBXBuildFile; fileRef = 2269BBE91C41F3E800BB55F7 /* publish_documentation.sh */; };
+		2269BC0D1C41F3E800BB55F7 /* receiveMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBEA1C41F3E800BB55F7 /* receiveMessage.cpp */; };
+		2269BC0E1C41F3E800BB55F7 /* xBeeConfiguration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBEC1C41F3E800BB55F7 /* xBeeConfiguration.cpp */; };
+		2269BC0F1C41F3E800BB55F7 /* xBeeCoordConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2269BBEE1C41F3E800BB55F7 /* xBeeCoordConfig.cpp */; };
+		2269BC131C41F4D000BB55F7 /* XBee.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2269BC111C41F4D000BB55F7 /* XBee.cpp */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		5326AEA810A23A0500278DE6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5326AEA710A23A0500278DE6 /* CoreLocation.framework */; };
 		53F323EB10A20EDB00E0DAE4 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F323EA10A20EDB00E0DAE4 /* OpenAL.framework */; };
@@ -345,26 +345,6 @@
 		E4D8936A11527B74007E1F53 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				2269BC111C41F4D000BB55F7 /* XBee.cpp */,
-				2269BC121C41F4D000BB55F7 /* XBee.h */,
-				2269BC101C41F42A00BB55F7 /* furSwarmPatternConst.h */,
-				2269BBB31C41F3E800BB55F7 /* furSwarm.h */,
-				2269BBB41C41F3E800BB55F7 /* furSwarm.mm */,
-				2269BBB51C41F3E800BB55F7 /* swarmMember.h */,
-				2269BBB71C41F3E800BB55F7 /* xBeeControl.h */,
-				2269BBB81C41F3E800BB55F7 /* xBeeControl.cpp */,
-				2269BBB91C41F3E800BB55F7 /* swarmMemberDisplay.mm */,
-				2269BBBA1C41F3E800BB55F7 /* furSwarmCommand.cpp */,
-				2269BBBB1C41F3E800BB55F7 /* furSwarmConst.h */,
-				2269BBBC1C41F3E800BB55F7 /* swarmMemberDisplay.h */,
-				2269BBBD1C41F3E800BB55F7 /* ofToggleButton.cpp */,
-				2269BBBE1C41F3E800BB55F7 /* ofToggleButton.h */,
-				2269BBBF1C41F3E800BB55F7 /* ofButton.h */,
-				2269BBC01C41F3E800BB55F7 /* ofTriangleButton.cpp */,
-				2269BBC11C41F3E800BB55F7 /* ofTriangleButton.h */,
-				2269BBC21C41F3E800BB55F7 /* furSwarmMessage.h */,
-				2269BBC31C41F3E800BB55F7 /* furSwarmMessage.mm */,
-				2269BBC41C41F3E800BB55F7 /* swarmMember.mm */,
 				2269BBC51C41F3E800BB55F7 /* animation1.cpp */,
 				2269BBC61C41F3E800BB55F7 /* animation1.h */,
 				2269BBC71C41F3E800BB55F7 /* animation2.cpp */,
@@ -387,25 +367,45 @@
 				2269BBD81C41F3E800BB55F7 /* fsPatternParameters.h */,
 				2269BBD91C41F3E800BB55F7 /* fsPayload.cpp */,
 				2269BBDA1C41F3E800BB55F7 /* fsPayload.h */,
+				2269BBB31C41F3E800BB55F7 /* furSwarm.h */,
+				2269BBB41C41F3E800BB55F7 /* furSwarm.mm */,
+				2269BBBA1C41F3E800BB55F7 /* furSwarmCommand.cpp */,
 				2269BBDB1C41F3E800BB55F7 /* furSwarmCommand.h */,
+				2269BBBB1C41F3E800BB55F7 /* furSwarmConst.h */,
 				2269BBDC1C41F3E800BB55F7 /* furSwarmiOSApp.h */,
 				2269BBDD1C41F3E800BB55F7 /* furSwarmiOSApp.mm */,
+				2269BBC21C41F3E800BB55F7 /* furSwarmMessage.h */,
+				2269BBC31C41F3E800BB55F7 /* furSwarmMessage.mm */,
+				2269BC101C41F42A00BB55F7 /* furSwarmPatternConst.h */,
 				2269BBDE1C41F3E800BB55F7 /* keyboard.cpp */,
 				2269BBDF1C41F3E800BB55F7 /* keyboard.h */,
 				2269BBE01C41F3E800BB55F7 /* main.mm */,
 				2269BBE11C41F3E800BB55F7 /* ofButton.cpp */,
+				2269BBBF1C41F3E800BB55F7 /* ofButton.h */,
 				2269BBE21C41F3E800BB55F7 /* ofEllipseButton.cpp */,
 				2269BBE31C41F3E800BB55F7 /* ofEllipseButton.h */,
 				2269BBE41C41F3E800BB55F7 /* ofSerial.cpp */,
 				2269BBE51C41F3E800BB55F7 /* ofSerial.h */,
 				2269BBE61C41F3E800BB55F7 /* ofSlider.cpp */,
 				2269BBE71C41F3E800BB55F7 /* ofSlider.h */,
+				2269BBBD1C41F3E800BB55F7 /* ofToggleButton.cpp */,
+				2269BBBE1C41F3E800BB55F7 /* ofToggleButton.h */,
+				2269BBC01C41F3E800BB55F7 /* ofTriangleButton.cpp */,
+				2269BBC11C41F3E800BB55F7 /* ofTriangleButton.h */,
 				2269BBE81C41F3E800BB55F7 /* project_sync.sh */,
 				2269BBE91C41F3E800BB55F7 /* publish_documentation.sh */,
 				2269BBEA1C41F3E800BB55F7 /* receiveMessage.cpp */,
 				2269BBEB1C41F3E800BB55F7 /* receiveMessage.h */,
+				2269BBB51C41F3E800BB55F7 /* swarmMember.h */,
+				2269BBC41C41F3E800BB55F7 /* swarmMember.mm */,
+				2269BBBC1C41F3E800BB55F7 /* swarmMemberDisplay.h */,
+				2269BBB91C41F3E800BB55F7 /* swarmMemberDisplay.mm */,
+				2269BC111C41F4D000BB55F7 /* XBee.cpp */,
+				2269BC121C41F4D000BB55F7 /* XBee.h */,
 				2269BBEC1C41F3E800BB55F7 /* xBeeConfiguration.cpp */,
 				2269BBED1C41F3E800BB55F7 /* xBeeConfiguration.h */,
+				2269BBB81C41F3E800BB55F7 /* xBeeControl.cpp */,
+				2269BBB71C41F3E800BB55F7 /* xBeeControl.h */,
 				2269BBEE1C41F3E800BB55F7 /* xBeeCoordConfig.cpp */,
 				2269BBEF1C41F3E800BB55F7 /* xBeeCoordConfig.h */,
 			);
