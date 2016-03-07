@@ -245,6 +245,11 @@ void furSwarm::setup(){
     newCommand->setCanSetColor(true);
     newCommand->setCanSetIntensity(true);
     page2Commands.push_front(newCommand);
+    // Row 3
+    newCommand = new furSwarmCommand(FS_RECT_BUTTON, FS_COL_1, FS_ROW_3, FS_CB_HEIGHT, FS_CB_WIDTH, FS_COLOR_POOF_1, FS_NAME_POOF_1, FS_ID_POOF_1, patternParameters);
+    page2Commands.push_front(newCommand);
+    newCommand = new furSwarmCommand(FS_RECT_BUTTON, FS_COL_2, FS_ROW_3, FS_CB_HEIGHT, FS_CB_WIDTH, FS_COLOR_POOF_2, FS_NAME_POOF_2, FS_ID_POOF_2, patternParameters);
+    page2Commands.push_front(newCommand);
     // Row 7
     resetNetworkButton = new ofButton(FS_COL_1, FS_ROW_7, FS_CB_HEIGHT, FS_CB_WIDTH, FS_COLOR_BROKEN, "network");
     // Row 8
@@ -260,7 +265,7 @@ void furSwarm::setup(){
 
     textKeyboard = new keyboard(true);
     if (XBEE_THREADED) {
-        xBee.startThread(true, false);
+        xBee.startThread(true);
     }
 }
 
